@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Print a C program using printf
- *
- * Return: Always 0 (Success)
+ *main - Entry point
+ *My hello, printf task
+ *Return: return 1 after program execution
  */
-
 int void(main)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
