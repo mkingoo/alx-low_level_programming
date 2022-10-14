@@ -1,5 +1,3 @@
-able File  12 lines (11 sloc)  202 Bytes
-
 #include <stdio.h>
 /**
 * main - Entry point
