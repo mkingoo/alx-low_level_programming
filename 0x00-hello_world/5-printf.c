@@ -4,7 +4,6 @@
  * main - Print a C program using printf
  *
  * Return: Always 0 (Success)
- *
  */
 
 int void(main)
