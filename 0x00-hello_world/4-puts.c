@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 /**
- *  * main - Entry point
+ *  * main - print a line of code using puts
  *   *
- *    * Description: A C program that prints with put function
- *     *
- *      * Return: Always 0 (Success)
- *      */
+ *    * Return: 0
+ *    */
 
 int main(void)
 {
