@@ -22,23 +22,22 @@ int main(void)
 		while (j < 58)
 		{
 			k = j + 1;
-			while (k < 58)
-			{
-				putchar(1);
-				putchar(j);
-				putchar(k);
-				if (i < 55 || j < 56 || k < 57)
+			        while (k < 58)
 				{
-					putchar(44);
-					putchar(32);
+					putchar(1);
+					putchar(j);
+					putchar(k);
+					if (i < 55 || j < 56 || k < 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
+					k++;
 				}
-				k++;
-			}
-
-		j++;
+			j++;
 		}
-
-	i++;
+		
+		i++;
 	}
 
 	putchar(10);
