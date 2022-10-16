@@ -6,35 +6,42 @@
  */
 int main(void)
 
+
 {
-	int number_left;
-	int number_right;
+	int left;
+	int right;
+	int center;
 
 
-	for (number_left = 48; number_right <= 78; number_left++)
+
+	for (left = 48; left <= 57; left++)
 	{
-		for (number_right = number_left + 1 ; number_right <= 78; number_right++)
+		for (center = left + 1; center <= 57; center++)
 		{
-
-			putchar(number_left);
-			putchar (number_right);
+			for (right = center + 1 ; right <= 57; right++)
 
 
-			if ((number_left == 56) && (number_right == 78))
 			{
-				break;
+				putchar(left);
+				putchar (center);
+				putchar (right);
+
+				if  ((left == 55) && (center == left + 1) && (right == center + 1))
+				{
+					break;
+				}
+
+				putchar(',');
+				putchar (' ');
+
 			}
 
-			putchar(',');
-			putchar (' ');
-
 		}
+
 	}
 
 	putchar('\n');
 
-
 	return (0);
-
 
 }
