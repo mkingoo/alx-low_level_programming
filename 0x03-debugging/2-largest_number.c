@@ -5,7 +5,6 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * code written by VincentKimatu
  * Return: largest number
  */
 
@@ -17,7 +16,7 @@ int largest_number(int a, int b, int c)
 	{
 		largest = a;
 	}
-	else if (a > b && c < a)
+	else if (a > b && c > a)
 	{
 		largest = c;
 	}
