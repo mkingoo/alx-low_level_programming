@@ -11,10 +11,10 @@ int is_numerical(unsigned int n)
 }
 
 /**
- *  * _atoi - convert a string to an integer
- *   *@s: String
- *    * Return: Return the num
- *     */
+ * _atoi - convert a string to an integer
+ *@s: String
+ * Return: Return the num
+ */
 int _atoi(char *s)
 {
 	unsigned int number, i;
